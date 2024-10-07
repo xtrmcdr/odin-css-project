@@ -1,12 +1,19 @@
 body {
-  margin: 0;
+  margin: auto;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  box-sizing: border-box;
+  border: 1px solid salmon;
+  border-radius: 10px;
+  line-height: 0.5;
 }
 
 img {
   border-radius: 10px;
-  width: 40%;
+  width: 80%;
+  margin-bottom: 10px;
 }
