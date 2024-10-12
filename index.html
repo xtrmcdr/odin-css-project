@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ODIN PROJECT // Recipes Website using CSS/JS/HTML</title>
     <link rel="stylesheet" href="./style/style.CSS" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
-    <h1>Odin Recipes</h1>
-    <img src="./recipes/images/lasagna.webp" alt="yummy lasagna" />
+    <div id="content">
 
-    <div>
-      <p>
-        <a href="./recipes/lasagna.html">Lasagna Secret Recipe</a>
-      </p>
-    </div>
-  </body>
+      <h1 class="uppercase text-3xl font-bold p-4 py-6 text-orange-500">Odin Recipes</h1>
+      <img class="drop-shadow-lg hover:drop-shadow" src="./recipes/images/lasagna.webp" alt="yummy lasagna" />
+      
+      <div class="p-3">
+        <p class="text-orange-500 p-6">
+          <a class="p-3 rounded-3xl border-solid border-2 border-orange-500 hover:underline hover:bg-orange-500 hover:text-white underline-offset-3" href="./recipes/lasagna.html">Lasagna Secret Recipe</a>
+        </p>
+      </div>
+    </body>
+  </div>
 </html>

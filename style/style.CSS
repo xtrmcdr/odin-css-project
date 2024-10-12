@@ -1,4 +1,10 @@
-body {
+:root {
+  transition: all 1s ease-in;
+  background-color: orange;
+}
+
+#content {
+  background-color: aliceblue;
   margin: auto;
   margin-top: 10px;
   display: flex;
@@ -9,11 +15,16 @@ body {
   box-sizing: border-box;
   border: 1px solid salmon;
   border-radius: 10px;
-  line-height: 0.5;
+  line-height: 1.2;
+  /* height: 100vw; */
 }
 
 img {
   border-radius: 10px;
   width: 80%;
   margin-bottom: 10px;
+}
+
+li > p {
+  font-style: italic;
 }
