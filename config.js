@@ -1,5 +1,10 @@
 tailwind.config = {
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Josefin Sans", "sans-serif"],
+        title: ["Playfair", "serif"],
+      },
+    },
   },
 };
