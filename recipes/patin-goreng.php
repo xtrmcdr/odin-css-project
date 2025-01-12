@@ -17,14 +17,15 @@
 
         <?php
 
-            $recipes = [
+            $ayam = "ayam goreng";
+$recipes = [
                 [
                     'nama' => 'Tempoyak',
                     'link' => '.\tempoyak.html'
                 ],
 
                 [
-                    'nama' => 'Nasi Goreng',
+                    'nama' => 'Nasi Goreng '.$ayam,
                     'link' => '.\nasi_goreng.html'
                 ]
                 ];
